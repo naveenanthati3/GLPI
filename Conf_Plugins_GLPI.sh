@@ -7,7 +7,7 @@ clear
         echo "2)Bar Code Scanner "
         echo "3)GLPI Dashboard "
         echo "4) Exit "
-        read -p "Select option [1-3] : " option
+        read -p "Select option [1-4] : " option
         case $option in
         1)
         echo "###### Downloading Fusion Inventory ######"
