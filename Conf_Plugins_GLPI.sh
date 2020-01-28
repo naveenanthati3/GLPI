@@ -15,7 +15,7 @@ clear
         sudo wget https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi9.4%2B2.4/fusioninventory-9.4+2.4.tar.bz2
         sudo bzip2 -d fusioninventory-9.4+2.4.tar.bz2
         sudo tar xf fusioninventory-9.4+2.4.tar
-        sudo mv fusioninventory /var/www/html/glpi/plugins/
+        sudo mv fusioninventory/ /var/www/html/glpi/plugins/
         ;;
         2)
         echo "###### Downloading Barcode Generator ######"
@@ -23,14 +23,14 @@ clear
         sudo wget https://github.com/pluginsGLPI/barcode/releases/download/2.4.0/glpi-barcode-2.4.0.tar.bz2
         sudo bzip2 -d glpi-barcode-2.4.0.tar.bz2
         sudo tar xf glpi-barcode-2.4.0.tar
-        sudo mv barcode /var/www/html/glpi/plugins/
+        sudo mv barcode/ /var/www/html/glpi/plugins/
         ;;
         3)
         echo "###### Downloading GLPI Dashboard ######"
         cd /opt/
         sudo wget https://forge.glpi-project.org/attachments/download/2294/GLPI-dashboard_plugin-0.9.8.zip
         sudo unzip GLPI-dashboard_plugin-0.9.8.zip
-        sudo mv dashboard /var/www/html/glpi/plugins/
+        sudo mv dashboard/ /var/www/html/glpi/plugins/
         ;;
         4)
         echo "#### Exiting from Setup ####"
